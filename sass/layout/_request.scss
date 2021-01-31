@@ -48,9 +48,21 @@
 
     color: $primary-title-color;
     background: $primary-white-color;
+    transition: fill 650ms, color 650ms,
+      text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     & > svg {
       margin-right: 15px;
+    }
+
+    &:focus,
+    &:hover {
+      fill: $accent-color;
+      color: $accent-color;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 3px;
+      transition: fill 250ms, color 250ms,
+        text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 }
