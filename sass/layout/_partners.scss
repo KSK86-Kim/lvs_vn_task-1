@@ -1,0 +1,22 @@
+.partners {
+  &__section {
+    background: $secondary-title-color;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  &__title {
+    margin-bottom: 60px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.472;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $primary-white-color;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+}

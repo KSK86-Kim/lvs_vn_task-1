@@ -1,0 +1,51 @@
+.question {
+  &__section {
+    padding-top: 21px;
+    padding-bottom: 150px;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.472;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $primary-title-color;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  &__subject {
+    // margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: $accent-color;
+  }
+
+  &__decription {
+    width: 730px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.375;
+
+    color: $description-color;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    border: 0;
+    background: none;
+
+    & > svg {
+      margin-right: 15px;
+      fill: $accent-color;
+    }
+  }
+}

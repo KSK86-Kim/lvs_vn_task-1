@@ -1,0 +1,113 @@
+.project-moreInfo {
+  &__container {
+    display: flex;
+    position: relative;
+    padding-bottom: 250px;
+  }
+  &__list {
+    position: absolute;
+    transform: translate(0%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 57px;
+    padding-bottom: 57px;
+    padding-left: 130px;
+    padding-right: 130px;
+
+    background: #f7f7f7;
+  }
+  &__item {
+    & > .number {
+      font-family: Oswald;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 72px;
+      line-height: 1.486;
+      text-align: center;
+      text-transform: uppercase;
+
+      color: $accent-color;
+    }
+    & > .old {
+      font-family: Oswald;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 1.472;
+      text-align: center;
+      text-transform: uppercase;
+
+      color: $primary-title-color;
+    }
+    & > .decription {
+      font-family: Oswald;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      text-align: center;
+
+      color: $description-color;
+    }
+  }
+}
+
+.project {
+  &__container {
+    padding-bottom: 150px;
+  }
+  &__title {
+    margin-bottom: 60px;
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.472;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $secondary-title-color;
+  }
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    max-width: 350px;
+  }
+  &__item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &__subject {
+    position: relative;
+    padding-top: 66px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+
+    color: $secondary-title-color;
+  }
+  &__subject::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 45px;
+
+    width: 55px;
+    height: 6px;
+
+    border-radius: 2px;
+    background-color: $accent-color;
+  }
+
+  &__decription {
+    padding-top: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.375;
+
+    color: $description-color;
+  }
+}

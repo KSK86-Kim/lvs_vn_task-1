@@ -1,0 +1,56 @@
+.request {
+  &__section {
+    background: $accent-color;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 45px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.479;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: $primary-white-color;
+  }
+  &__decription {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: $primary-white-color;
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+
+    border-radius: 2px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    color: $primary-title-color;
+    background: $primary-white-color;
+
+    & > svg {
+      margin-right: 15px;
+    }
+  }
+}
