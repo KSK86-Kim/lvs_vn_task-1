@@ -43,6 +43,19 @@
     border: 0;
     background: none;
 
+    &.is-open .icon-open {
+      display: none;
+    }
+    & .icon-open {
+      display: block;
+    }
+    &.is-open .icon-close {
+      display: block;
+    }
+    & .icon-close {
+      display: none;
+    }
+
     & > svg {
       margin-right: 15px;
       fill: $accent-color;

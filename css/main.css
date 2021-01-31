@@ -428,6 +428,22 @@ img {
   background: none;
 }
 
+.question__btn.is-open .icon-open {
+  display: none;
+}
+
+.question__btn .icon-open {
+  display: block;
+}
+
+.question__btn.is-open .icon-close {
+  display: block;
+}
+
+.question__btn .icon-close {
+  display: none;
+}
+
 .question__btn > svg {
   margin-right: 15px;
   fill: #f7654a;
